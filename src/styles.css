@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.calender {
+  color: #839496;
+  background-color: #08161b;
+  width: 175px;
+}
+
+.calender .weeks {
+  display: flex;
+  justify-content: center;
+}
+.calender .days {
+  min-width: 25px;
+}
+
+.dayDate {
+  min-width: 25px;
+}
+.currentDate {
+  color: #08161b;
+  background-color: #839496;
+}
